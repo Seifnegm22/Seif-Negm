@@ -1,0 +1,525 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.clr {
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.body {
+  font-family: "Open Sans", arial;
+  width: 100%;
+  height: 100vh;
+}
+
+.top {
+  font-family: "Open Sans", arial;
+  height: 650px;
+  background-image: url(../img/WhatsApp\ Image\ 2024-08-26\ at\ 00.59.08_b0c5c1d3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.top .container .text-top h3 {
+  color: #fff;
+  font-size: 35px;
+  margin-top: 140px;
+  margin-bottom: 20px;
+}
+
+.top .container .text-top h2 {
+  color: #fff;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.top .container .text-top p {
+  color: #fff;
+  font-size: 25px;
+  line-height: 1.6em;
+}
+
+.top .container .text-top .btn {
+  padding: 15px 28px;
+  background-color: #fff;
+  border: none;
+  color: #000;
+  margin: 12px;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 3px solid #fff;
+  cursor: pointer;
+}
+
+.top .container .text-top .btn1 {
+  padding: 15px 28px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  margin: 12px;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+.sec {
+  font-family: "Open Sans", arial;
+  text-transform: capitalize;
+}
+
+.sec .container .img {
+  width: 50%;
+  float: left;
+}
+
+.sec .container .text-sec {
+  padding: 70px 20px 0px;
+  margin: auto;
+}
+
+.sec .container .text-sec h4 {
+  font-size: 32px;
+  color: #303030;
+  line-height: 1.38em;
+  margin: 25px;
+}
+
+.sec .container .text-sec p {
+  font-size: 17px;
+  color: #606060;
+  line-height: 1.86em;
+  margin: 25px;
+  padding: 25px;
+}
+
+.sec .text-sec ul {
+  color: #686868;
+  margin: 10px;
+}
+
+.sec .text-sec li {
+  margin: 15px;
+  list-style: none;
+}
+
+.sec .text-sec i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.third {
+  margin: 15px;
+  padding: 85px 20px 85px;
+  background: #f8f8f8;
+  background-color: #ebebeb7d;
+}
+
+.third .container .text-third {
+  font-size: 20px;
+  float: left;
+  width: 25%;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.third .container .text-third h3 {
+  line-height: 1.86em;
+}
+
+.third .container .text-third i {
+  text-align: center;
+  width: 90px;
+  height: 90px;
+  color: #4e4c4c;
+  border-radius: 90%;
+  display: inline-block;
+  background: #d4cdcdb2;
+  padding: 25px;
+  font-size: 35px;
+}
+
+.four {
+  margin: 15px;
+  padding: 90px 20px;
+  font-family: "Open Sans", arial;
+}
+
+.four .container .img-four {
+  width: 50%;
+  float: right;
+}
+
+.four .container .text-four {
+  padding: 40px;
+  margin: auto;
+}
+
+.four .container .text-four h2 {
+  font-size: 30px;
+  color: #303030;
+  line-height: 1.38em;
+  margin-top: 25px;
+  font-weight: 400;
+}
+
+.four .container .text-four p {
+  font-size: 17px;
+  line-height: 1.86em;
+  color: #606060;
+  margin-top: 45px;
+}
+
+.four .container .text-four h5 {
+  font-size: 15px;
+  line-height: 1.86em;
+  font-family: "Open Sans", arial;
+  color: #686868;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+.photo {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(33, 143, 230),
+      rgb(33, 140, 193, 0.9)
+    ),
+    url("../img/ilya-pavlov-87472-600x420.jpg");
+  background-position: center;
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+}
+
+.photo .text-photo i {
+  margin-top: 20%;
+  font-size: 50px;
+}
+
+.photo .text-photo h3 {
+  font-size: 70px;
+  font-weight: 400;
+  margin: 15px;
+}
+
+.photo .text-photo p {
+  font-size: 25px;
+}
+
+.photo .text-photo {
+  text-align: center;
+  font-size: 22.5px;
+  width: 25%;
+  float: left;
+}
+
+.five {
+  margin: 15px;
+  padding: 60px 20px 30px;
+}
+
+.five .container .ourSevices {
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+  color: #303030;
+  line-height: 1.38em;
+}
+
+.five .container .ourSevices h3 {
+  font-weight: 400;
+  margin: 17px;
+  font-family: "Open Sans";
+}
+
+.five .container .ourSevices p {
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.five .container .texts-five {
+  width: 33.3%;
+  padding: 25px;
+  float: left;
+  line-height: 1.86em;
+  font-family: "Open Sans", arial;
+  font-weight: 400;
+  color: #686868;
+}
+
+.sex {
+  background: #f8f8f8;
+}
+
+.sex .container .text-sex {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  margin: 15px 0px 50px;
+}
+
+.sex .container .text-sex h2 {
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.sex .container .text-sex p {
+  font-size: 17px;
+  color: #888;
+  margin: 17px 95px 0px;
+}
+
+.sex .ourVideo {
+  width: 100%;
+  padding: 38px 0px 70px 0;
+  text-align: -webkit-center;
+}
+
+.video-container {
+  position: relative;
+  width: 50%;
+}
+
+.video-container img {
+  position: relative;
+  z-index: 9;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+  z-index: 9;
+}
+
+.Seven {
+  margin: 15px;
+  padding: 80px 20px;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.Seven .container .RecentWork {
+  text-align: center;
+  font-weight: 400;
+  margin: 10px 0px 60px;
+}
+
+.Seven .container .RecentWork h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.Seven .container .RecentWork p {
+  font-size: 19px;
+  color: #777;
+  margin: 17px 95px 0px;
+}
+
+.Seven .container .text-seven {
+  float: left;
+  width: 33.3%;
+  padding: 0px 15px;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.Seven .text-seven {
+  border: 5px solid #fffafad0;
+}
+
+.Seven .container .text-seven h3 {
+  font-size: 19px;
+  padding: 5px;
+  color: #333333;
+}
+
+.Seven .container .text-seven p {
+  font-size: 15px;
+  padding-bottom: 30px;
+  color: #88888888;
+}
+
+.Seven .container .love-price i {
+  float: inline-end;
+  margin-top: -70px;
+  font-size: 20px;
+  color: #0000004d;
+}
+
+.Seven .container .love-price h5 {
+  float: right;
+  font-size: 18px;
+  margin-top: -45px;
+  color: #0000004d;
+}
+
+.Seven .img {
+  position: relative;
+}
+
+.Seven .img::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #0000009c;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.text-seven:hover .img::after {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.Seven .container .Veiw-Protofolio {
+  text-align: center;
+}
+
+.Seven .container .Veiw-Protofolio .btn {
+  padding: 20px 28px;
+  background-color: #218fe6;
+  border: none;
+  color: #fff;
+  margin: 13px;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 2px solid #fff;
+  cursor: pointer;
+  margin: 50px;
+}
+
+.eight {
+  background: #f8f8f8;
+}
+
+.eight .latestNews {
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin: 17px 0px 60px;
+}
+
+.eight .latestNews h2 {
+  padding: 50px;
+  font-size: 30px;
+}
+
+.eight .container .cards h2 {
+  font-size: 19px;
+  font-weight: 1000;
+  color: #333333;
+  margin-top: 20px;
+}
+
+.eight .cards {
+  float: left;
+  width: 33.3%;
+  padding: 0px 22px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  border: 5px solid #f5f5f5;
+  margin-bottom: 80px;
+  background-color: #fff;
+}
+
+.eight .container .cards ul {
+  color: #aaaaaa;
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+.eight .container .cards p {
+  font-size: 15px;
+  padding-top: 10px;
+  font-weight: 400;
+  line-height: 1.96em;
+  margin: 0px 0px 15px;
+  color: #88888888;
+}
+
+.eight .container .cards h4 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.96em;
+  margin: 0px 0px 15px;
+  color: #88888888;
+}
+
+.eight .container .cards span {
+  margin-left: 10px;
+}
+
+.footer {
+  background-color: #218fe6;
+  text-align: center;
+  padding: 80px 10px;
+}
+
+.footer .container .text-footer h1 {
+  font-size: 36px;
+  text-align: center;
+  font-family: "Open Sans", arial;
+  color: #fff;
+  font-weight: 400;
+}
+
+.footer .container .text-footer p {
+  font-size: 20px;
+  margin: 15px;
+  font-family: "Open Sans", arial;
+  line-height: 1.5em;
+  color: #fff;
+}
+
+.footer .container .text-footer .btn {
+  padding: 15px 28px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  margin: 13px;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 2px solid #fff;
+  cursor: pointer;
+  margin-bottom: 45px;
+}
